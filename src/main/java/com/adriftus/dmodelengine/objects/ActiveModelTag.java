@@ -131,7 +131,7 @@ public class ActiveModelTag implements ObjectTag, Adjustable {
         }
         // <--[mechanism]
         // @object ActiveModelTag
-        // @name state
+        // @name remove_state
         // @input ElementTag
         // @description
         // Forces the ActiveModel to stop playing an animation

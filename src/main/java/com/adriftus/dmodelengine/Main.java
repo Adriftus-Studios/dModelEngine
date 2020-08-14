@@ -13,6 +13,13 @@ public class Main extends JavaPlugin {
 		ModeledEntityTag.registerTags();
 		ObjectFetcher.registerWithObjectFetcher(ActiveModelTag.class, ActiveModelTag.tagProcessor);
 		ActiveModelTag.registerTags();
+		// <--[tag]
+		// @attribute <EntityTag.modeled_entity>
+		// @returns ModeledEntityTag
+		// @plugin dModelEngine
+		// @description
+		// Returns the ModeledEntityTag that is attached to the EntityTag, if any.
+		// -->
 		EntityTag.registerTag("modeled_entity", (attribute, object) -> {
 			return new ModeledEntityTag(object.getUUID().toString());
 		});
