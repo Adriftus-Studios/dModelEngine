@@ -1,0 +1,6 @@
+name: dModelEngine
+author: AJ_4real
+main: com.adriftus.dmodelengine.Main
+version: 0.1
+api-version: 1.15
+depend:  [ModelEngine, Denizen]
